@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    display: center;
+    justify-content: center;
+    margin-left: 25%;
+    background-color: rgb(39, 40, 41);
+}
+#main{
+    background-color: rgb(56, 118, 191);
+    height: 700px;
+    width: 800px;
+    display: center;
+    padding: 1px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.inner{
+    background-color: rgb(228, 241, 255);
+    height: 580px;
+    width: 500px;
+    margin-left: 18%;
+    margin-top: 60px;
+    border-radius: 20px;
+
+}
+#result{
+    width: 450px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 17px;
+    border-radius: 10px ;
+    border-color: transparent;
+    background-color: rgb(174, 210, 255);
+}
+td{
+    display: inline-flex;
+}
+input[type="button"]{
+    background-color:rgb(128, 179, 255);
+    border-color: transparent;
+    margin-left: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-right: auto;
+    height: 60px;
+    width: 80px;
+    font-size: 20px;
+    color: rgb(56, 118, 191);
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+input[value="Enter"]{
+    width: 180px;
+    background-color: rgb(56, 118, 191);
+    font-family: white;
+    color: white;
+}
+input[value="9"],input[value="8"],input[value="7"],input[value="6"],input[value="5"],input[value="4"],input[value="3"],input[value="2"],input[value="1"],input[value="0"]{
+    background-color: rgb(174, 210, 255);
+    color: black;
+}
+#result{
+    font-size: 40px;
+    color:  rgb(56, 118, 191);
+}
