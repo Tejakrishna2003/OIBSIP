@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(28, 130, 173);
+    margin: auto;
+}
+.bar{
+    background-color: white;
+    padding: 4px;
+}
+.main{
+    display: flex;
+    margin-top: 60px;
+}
+input{
+    width: 250px;
+    height: 24px;
+    margin-top: 20px;
+}
+textarea{
+    height: 250px;
+    width: 250px;
+    margin-top: 20px;
+
+}
+.save{
+    width: 256px;
+    height: 30px;
+    margin-top: 20px;
+    background-color: rgb(3, 201, 136);
+    border-color: transparent;
+}
+.in{
+    background-color: white;
+    margin: 10px 20px 20px 100px;
+    display: block;
+    padding: 0px 20px 20px 20px;
+    border-radius: 5px;
+}
+.out{
+    margin-left: 40px;
+    width: 900px;
+}
+h4{
+    display: inline-block;
+    margin-top: 10px;
+    justify-items:  space-between;
+    padding-left: 20px;
+    color: white;
+}
+h4.two{
+    padding-left: 100px;
+}
+hr{
+    margin-top: 20px;
+    border-radius: 1px;
+}
+#delete{
+    float: right;
+    margin-right: 20px
+}
+#full{
+    background-color: white;
+}
+li{
+  margin-left:10px;
+  list-style-type:none;
+  
+}

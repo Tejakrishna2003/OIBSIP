@@ -1,0 +1,49 @@
+body{
+    margin: auto;
+}
+.top{
+    background-color: black;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    height: 400px;
+    width: 1480px;
+    display: block;
+    padding: 10px;
+}
+img, .bottom{
+    height: 600px;
+    width: 1500px;
+    margin: auto;
+}
+.bottom{
+    background-color: black;
+    color: white;
+    padding: 1px;
+}
+h1{
+    text-align: center;
+    margin-top: 140px;
+
+}
+.quatation{
+    position: absolute;
+    color: white;
+    margin-left: 100px;
+    margin-top:200px;
+    font-size: 3rem;
+}
+p{
+    margin-left: 350px;
+}
+hr{
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.bio{
+    font-size: 4rem;
+}
+.bottom, .middle{
+    position: flex;
+    margin: auto;
+}
